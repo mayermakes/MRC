@@ -1,0 +1,32 @@
+Goals:
+Receiver side
+    MRCshield supporting:
+      as many pwm ports as possible
+      as many analog inputs with Circuitry for temperature sensing (Motor /ESC/Servos) as possible
+      design manner to turn them into digital inputs by leaving the channel unpopulated or by means of a dip switch
+      overal compact layout to fit on any arduino MKR
+      complementary firmware
+Sender Side
+    MRCtx supporting:
+    all channels supported by MRCshield
+    display to show received values and states of channels
+    easy means of pairing to MRC receiver
+    physical versions for Pistol style and gimbal style(rc plane remote)
+    Kit to put into existing RC controller shell?
+    Fully standalone TX?
+    Add on as bonus for existing RC systems(non intrusive)
+    
+ MRCextender
+    Range extender
+    Basically a WIFI repeater to get better signal coverage in the wild.
+ MRCcheckpoint
+  Device that registers contact with MRC-Vehicle and keeps track of score
+  deploy data to whole system(players see score/leaderboard on the remote)
+  
+ virtual Games playable with physical RC-Vehicles(ideas):
+    
+    King of the Hill ( the last to control the checkpoint adfter time runs out wins)
+    Domination ( keep control of checkpoints as a team)
+    Baja (pass all checkpoints as fast as possible)
+     
+    
